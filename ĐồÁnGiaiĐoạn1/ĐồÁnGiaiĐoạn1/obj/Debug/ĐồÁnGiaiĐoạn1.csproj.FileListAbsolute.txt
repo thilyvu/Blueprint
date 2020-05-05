@@ -18,3 +18,5 @@ D:\New folder\source\doangiaidoan1\ĐồÁnGiaiĐoạn1\ĐồÁnGiaiĐoạn1\obj
 D:\New folder\source\doangiaidoan1\ĐồÁnGiaiĐoạn1\ĐồÁnGiaiĐoạn1\obj\Debug\ĐồÁnGiaiĐoạn1.EditForm.resources
 D:\New folder\source\doangiaidoan1\ĐồÁnGiaiĐoạn1\ĐồÁnGiaiĐoạn1\obj\Debug\ĐồÁnGiaiĐoạn1.ManagerIFF.resources
 D:\New folder\source\doangiaidoan1\ĐồÁnGiaiĐoạn1\ĐồÁnGiaiĐoạn1\obj\Debug\ĐồÁnGiaiĐoạn1.SalaryForm.resources
+D:\New folder\source\doangiaidoan1\ĐồÁnGiaiĐoạn1\ĐồÁnGiaiĐoạn1\obj\Debug\ĐồÁnGiaiĐoạn1.Booking.resources
+D:\New folder\source\doangiaidoan1\ĐồÁnGiaiĐoạn1\ĐồÁnGiaiĐoạn1\obj\Debug\ĐồÁnGiaiĐoạn1.Order.resources

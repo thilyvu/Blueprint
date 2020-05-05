@@ -83,7 +83,7 @@
             this.tbPASS.PasswordChar = '*';
             this.tbPASS.Size = new System.Drawing.Size(191, 22);
             this.tbPASS.TabIndex = 4;
-            this.tbPASS.Text = "09012000";
+            this.tbPASS.Text = "0";
             // 
             // btLOGIN
             // 

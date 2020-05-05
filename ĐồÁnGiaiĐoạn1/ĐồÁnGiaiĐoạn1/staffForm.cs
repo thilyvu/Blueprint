@@ -119,8 +119,8 @@ namespace ĐồÁnGiaiĐoạn1
                         if (cmd.ExecuteNonQuery() == 1)
                         {
                             MessageBox.Show("Checkin successfully", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            this.lbCheckout.Text = "CheckIn status : V";
-                            j++;
+                            this.lbCheckin.Text = "CheckIn status : V";
+                            i++;
                         }
                         else
                         {

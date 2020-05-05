@@ -206,8 +206,9 @@
             this.button2.TabIndex = 18;
             this.button2.Text = "CANCEL";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // AddEditRemoveForm
+            // AddForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -231,7 +232,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "AddEditRemoveForm";
+            this.Name = "AddForm";
             this.Text = "AddEditRemoveForm";
             this.ResumeLayout(false);
             this.PerformLayout();

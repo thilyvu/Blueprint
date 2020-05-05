@@ -25,6 +25,9 @@ namespace ĐồÁnGiaiĐoạn1
             string query = "SELECT * FROM dbo.ShiftWork";
             getdata(query);
             this.label2.Name = "staff";
+            Bill a = new Bill();
+            int totalIncome = a.getTotalIncome();
+            tbTotalIncome.Text = totalIncome.ToString()+" VND";
         }
 
         private void addToolStripMenuItem_Click(object sender, EventArgs e)
@@ -235,6 +238,12 @@ namespace ĐồÁnGiaiĐoạn1
         private void salaryToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SalaryForm frm = new SalaryForm();
+            frm.Show();
+        }
+
+        private void btBook_Click(object sender, EventArgs e)
+        {
+            Booking frm = new Booking();
             frm.Show();
         }
     }

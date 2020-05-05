@@ -52,10 +52,17 @@
     <Compile Include="AddForm.Designer.cs">
       <DependentUpon>AddForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bill.cs" />
     <Compile Include="blueprintsDataSet2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>blueprintsDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Booking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Booking.Designer.cs">
+      <DependentUpon>Booking.cs</DependentUpon>
     </Compile>
     <Compile Include="ChangePassForm.cs">
       <SubType>Form</SubType>
@@ -63,6 +70,7 @@
     <Compile Include="ChangePassForm.Designer.cs">
       <DependentUpon>ChangePassForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Dish.cs" />
     <Compile Include="EditForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +82,12 @@
     </Compile>
     <Compile Include="InformationForm.Designer.cs">
       <DependentUpon>InformationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order.Designer.cs">
+      <DependentUpon>Order.cs</DependentUpon>
     </Compile>
     <Compile Include="RemovebyIDForm.cs">
       <SubType>Form</SubType>
@@ -129,8 +143,12 @@
     <Compile Include="staffForm.Designer.cs">
       <DependentUpon>staffForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Table.cs" />
     <EmbeddedResource Include="AddForm.resx">
       <DependentUpon>AddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Booking.resx">
+      <DependentUpon>Booking.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChangePassForm.resx">
       <DependentUpon>ChangePassForm.cs</DependentUpon>
@@ -140,6 +158,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="InformationForm.resx">
       <DependentUpon>InformationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order.resx">
+      <DependentUpon>Order.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RemovebyIDForm.resx">
       <DependentUpon>RemovebyIDForm.cs</DependentUpon>

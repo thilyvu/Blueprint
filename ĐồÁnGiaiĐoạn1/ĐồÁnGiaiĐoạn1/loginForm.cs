@@ -123,3 +123,26 @@ namespace ĐồÁnGiaiĐoạn1
         }
     }
 }
+namespace GlobalVariables
+{
+    public static class Globals
+    {
+        // parameterless constructor required for static class
+        static Globals() { GlobalInt = 1234;
+            NumberofPeople = 0;
+        } // default value
+
+        // public get, and private set for strict access control
+        public static int GlobalInt { get; private set; }
+        public static int NumberofPeople { get; private set; }
+        // GlobalInt can be changed only via this method
+        public static void SetGlobalInt(int newInt)
+        {
+            GlobalInt = newInt;
+        }
+        public static void SetNumbleOfpeople(int newInt)
+        {
+            NumberofPeople = newInt;
+        }
+    }
+}

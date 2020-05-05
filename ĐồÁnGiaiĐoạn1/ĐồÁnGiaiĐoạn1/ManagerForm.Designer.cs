@@ -54,6 +54,9 @@
             this.btShowManager = new System.Windows.Forms.Button();
             this.btSW = new System.Windows.Forms.Button();
             this.btChangeShiftWork = new System.Windows.Forms.Button();
+            this.btBook = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.tbTotalIncome = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.wordTableBindingSource)).BeginInit();
@@ -75,7 +78,7 @@
             this.addEmployeeToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1393, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1393, 30);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -92,21 +95,21 @@
             // informationToolStripMenuItem
             // 
             this.informationToolStripMenuItem.Name = "informationToolStripMenuItem";
-            this.informationToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.informationToolStripMenuItem.Size = new System.Drawing.Size(173, 26);
             this.informationToolStripMenuItem.Text = "Information";
             this.informationToolStripMenuItem.Click += new System.EventHandler(this.informationToolStripMenuItem_Click);
             // 
             // changePassToolStripMenuItem
             // 
             this.changePassToolStripMenuItem.Name = "changePassToolStripMenuItem";
-            this.changePassToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.changePassToolStripMenuItem.Size = new System.Drawing.Size(173, 26);
             this.changePassToolStripMenuItem.Text = "Change Pass";
             this.changePassToolStripMenuItem.Click += new System.EventHandler(this.changePassToolStripMenuItem_Click);
             // 
             // salaryToolStripMenuItem
             // 
             this.salaryToolStripMenuItem.Name = "salaryToolStripMenuItem";
-            this.salaryToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.salaryToolStripMenuItem.Size = new System.Drawing.Size(173, 26);
             this.salaryToolStripMenuItem.Text = "Salary";
             this.salaryToolStripMenuItem.Click += new System.EventHandler(this.salaryToolStripMenuItem_Click);
             // 
@@ -124,28 +127,28 @@
             // addToolStripMenuItem
             // 
             this.addToolStripMenuItem.Name = "addToolStripMenuItem";
-            this.addToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.addToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
             this.addToolStripMenuItem.Text = "Add";
             this.addToolStripMenuItem.Click += new System.EventHandler(this.addToolStripMenuItem_Click);
             // 
             // editToolStripMenuItem
             // 
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
             this.editToolStripMenuItem.Text = "Edit";
             this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
             // 
             // removeToolStripMenuItem
             // 
             this.removeToolStripMenuItem.Name = "removeToolStripMenuItem";
-            this.removeToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.removeToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
             this.removeToolStripMenuItem.Text = "Remove";
             this.removeToolStripMenuItem.Click += new System.EventHandler(this.removeToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -230,9 +233,9 @@
             // 
             // btShowEmpoyee
             // 
-            this.btShowEmpoyee.Location = new System.Drawing.Point(725, 86);
+            this.btShowEmpoyee.Location = new System.Drawing.Point(686, 96);
             this.btShowEmpoyee.Name = "btShowEmpoyee";
-            this.btShowEmpoyee.Size = new System.Drawing.Size(109, 46);
+            this.btShowEmpoyee.Size = new System.Drawing.Size(118, 45);
             this.btShowEmpoyee.TabIndex = 10;
             this.btShowEmpoyee.Text = "Show Employee ";
             this.btShowEmpoyee.UseVisualStyleBackColor = true;
@@ -240,9 +243,9 @@
             // 
             // btShowManager
             // 
-            this.btShowManager.Location = new System.Drawing.Point(891, 85);
+            this.btShowManager.Location = new System.Drawing.Point(886, 96);
             this.btShowManager.Name = "btShowManager";
-            this.btShowManager.Size = new System.Drawing.Size(109, 46);
+            this.btShowManager.Size = new System.Drawing.Size(118, 45);
             this.btShowManager.TabIndex = 11;
             this.btShowManager.Text = "Show Manager";
             this.btShowManager.UseVisualStyleBackColor = true;
@@ -250,9 +253,9 @@
             // 
             // btSW
             // 
-            this.btSW.Location = new System.Drawing.Point(1068, 86);
+            this.btSW.Location = new System.Drawing.Point(1064, 96);
             this.btSW.Name = "btSW";
-            this.btSW.Size = new System.Drawing.Size(92, 45);
+            this.btSW.Size = new System.Drawing.Size(118, 45);
             this.btSW.TabIndex = 12;
             this.btSW.Text = "Show ShiftWork";
             this.btSW.UseVisualStyleBackColor = true;
@@ -268,11 +271,40 @@
             this.btChangeShiftWork.UseVisualStyleBackColor = true;
             this.btChangeShiftWork.Click += new System.EventHandler(this.btChangeShiftWork_Click);
             // 
+            // btBook
+            // 
+            this.btBook.Location = new System.Drawing.Point(1230, 96);
+            this.btBook.Name = "btBook";
+            this.btBook.Size = new System.Drawing.Size(118, 45);
+            this.btBook.TabIndex = 14;
+            this.btBook.Text = "Booking ";
+            this.btBook.UseVisualStyleBackColor = true;
+            this.btBook.Click += new System.EventHandler(this.btBook_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(951, 675);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(105, 17);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "Total Revenue:";
+            // 
+            // tbTotalIncome
+            // 
+            this.tbTotalIncome.Location = new System.Drawing.Point(1064, 675);
+            this.tbTotalIncome.Name = "tbTotalIncome";
+            this.tbTotalIncome.Size = new System.Drawing.Size(193, 22);
+            this.tbTotalIncome.TabIndex = 16;
+            // 
             // ManagerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1393, 726);
+            this.Controls.Add(this.tbTotalIncome);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.btBook);
             this.Controls.Add(this.btChangeShiftWork);
             this.Controls.Add(this.btSW);
             this.Controls.Add(this.btShowManager);
@@ -327,5 +359,8 @@
         private System.Windows.Forms.Button btSW;
         private System.Windows.Forms.Button btChangeShiftWork;
         public System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btBook;
+        private System.Windows.Forms.Label label5;
+        public System.Windows.Forms.TextBox tbTotalIncome;
     }
 }
